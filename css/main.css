@@ -1567,7 +1567,7 @@ textarea.input_field {
 	}
 	@media screen and (max-width:575px) {
 		/* padding: 100px 0; */
-		padding: 65px 0;
+		padding: 150px 0;
 	}
 }
 
