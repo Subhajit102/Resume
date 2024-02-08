@@ -430,7 +430,7 @@ header {
 }
 
 header.fixed {
-	max-width: calc(100% - 270px);
+	max-width: calc(100% - 300px);
 	position: fixed;
 	/* background: #000; */
 	background: #e3d9ff;
@@ -591,6 +591,9 @@ img{
 	line-height: 1.3;
 	overflow: hidden;
 	padding-left: 2px;
+	@media screen and (max-width:1280px) {
+		font-size: 40px;
+	}
 }
 
 .hero-content .intro-name span {
@@ -606,7 +609,11 @@ img{
 	font-size: 18px;
 	position: relative;
 	padding-left: 45px;
+	@media screen and (max-width:1280px) {
+		font-size: 16px;
+	}
 }
+
 
 .hero-content p span::after {
 	position: absolute;
@@ -1550,6 +1557,11 @@ textarea.input_field {
 	color: #2F1C6A;
 }
 
+.footer-xl{
+	@media screen and (max-width:1280px) {
+		padding: 100px 0;
+	}
+}
 
 
 /* end main-wrapper */
