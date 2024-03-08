@@ -1,565 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <meta http-equiv="content-script-type" content="text/html"/>
-        <meta http-equiv="content-script-type" content="text/javascript"/>
-        <meta http-equiv="content-script-type" content="text/css"/>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-        <meta name="description" content="I am Subhajit Mitra, I have worked on various technology stacks ranging from .NET full stack to SAP Spartacus with Hybris 2205. Actively working on developing and maintaining Cloud native applications."/>
-        <meta name="keywords" content="Subhajit Mitra, Software Developer, Angular, Spartacus, .NET, Azure, Full stack, Front end"/>
-        <meta name="author" content="Subhajit Mitra"/>
-        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="robots" content="index, follow">
-        <meta name="revisit-after" content="1 days">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#000000">
 
-        <!--Google Tags Manager-->
-        <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-K4THDHC"></script>
-        <script>
-            (function(w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
-                var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-K4THDHC');
-        </script>
-        <!--End Google Tag Manager-->
-        
-       <!-- Begin Inspectlet Asynchronous Code -->
-        <script type="text/javascript">
-            (function() {
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-script-type" content="text/html" />
+    <meta http-equiv="content-script-type" content="text/javascript" />
+    <meta http-equiv="content-script-type" content="text/css" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="description"
+        content="I am Subhajit Mitra, I have worked on various technology stacks ranging from .NET full stack to SAP Spartacus with Hybris 2205. Actively working on developing and maintaining Cloud native applications." />
+    <meta name="keywords"
+        content="Subhajit Mitra, Software Developer, Angular, Spartacus, .NET, Azure, Full stack, Front end" />
+    <meta name="author" content="Subhajit Mitra" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 days">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KC27SMZ8');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Begin Inspectlet Asynchronous Code -->
+    <script type="text/javascript">
+        (function () {
             window.__insp = window.__insp || [];
             __insp.push(['wid', 154422490]);
-            var ldinsp = function(){
-            if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=154422490&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+            var ldinsp = function () {
+                if (typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=154422490&r=' + Math.floor(new Date().getTime() / 3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x);
+            };
             setTimeout(ldinsp, 0);
-            })();
-            </script>
+        })();
+    </script>
     <!-- End Inspectlet Asynchronous Code -->
 
 
-        <!-- All JS -->
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+    <!-- All JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-        <!-- Title -->
-        <title>Subhajit Mitra</title>
-        <!-- Favicon -->
-        <link href="img/sm.png" type="image/png" rel="icon">
+    <!-- Title -->
+    <title>Subhajit Mitra</title>
+    <!-- Favicon -->
+    <link href="img/sm.png" type="image/png" rel="icon">
 
-        <!-- All CSS -->
-        <link href="css/plugins.css" rel="stylesheet" type="text/css">
-        <link href="css/main.css" rel="stylesheet" type="text/css">
-        <link href="css/responsive.css" rel="stylesheet" type="text/css">
-        
-        
-    </head>
+    <!-- All CSS -->
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
 
-    <body id="body" data-spy="scroll" data-target="#menu-list">
 
-        <!--  start page loader  -->
-        <div id="preloader">
-            <div class="scroll-static"></div>
-        </div>
-        <!--  end page loader  -->
+</head>
 
-        <!-- begin of main-wrapper -->
-        <div class="main-wrapper">
-            <!-- begin of navbar -->
-            <div class="nav-bar">
-                <!-- begin of scroll-indicator -->
-                <div class="scroll-indicator"></div>
-                <nav>
-                    <ul id="menu-list">
-                        <li class="nav-item">
-                            <a class="active nav-link" href="#body" data-text="Home">
-                                <span>01</span>Home
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about" data-text="About">
-                                <span>02</span>About
-                            </a>   
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experience" data-text="Experience">
-                                <span>03</span>Experience
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#education" data-text="Education">
-                                <span>04</span>Education
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills" data-text="Skills">
-                                <span>05</span>Skills
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects" data-text="Projects">
-                                <span>06</span>Projects
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#certifications" data-text="Certifications">
-                                <span>07</span>Certifications
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact" data-text="Contact">
+<body id="body" data-spy="scroll" data-target="#menu-list">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC27SMZ8" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!--  start page loader  -->
+    <div id="preloader">
+        <div class="scroll-static"></div>
+    </div>
+    <!--  end page loader  -->
+
+    <!-- begin of main-wrapper -->
+    <div class="main-wrapper">
+        <!-- begin of navbar -->
+        <div class="nav-bar">
+            <!-- begin of scroll-indicator -->
+            <div class="scroll-indicator"></div>
+            <nav>
+                <ul id="menu-list">
+                    <li class="nav-item">
+                        <a class="active nav-link" href="#body" data-text="Home">
+                            <span>01</span>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-text="About">
+                            <span>02</span>About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience" data-text="Experience">
+                            <span>03</span>Experience
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education" data-text="Education">
+                            <span>04</span>Education
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" data-text="Skills">
+                            <span>05</span>Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-text="Projects">
+                            <span>06</span>Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications" data-text="Certifications">
+                            <span>07</span>Certifications
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-text="Contact">
                             <span>08</span>Contact
-                            </a>
-                        </li>                        
-                    </ul> 
-                    <br><br><br>
-                </nav>
-            </div>
-            <!-- end of navbar -->
-
-
-            <!-- begin of main-content -->
-            <div class="main-content">
-                <!-- begin of header -->
-                <header>
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-7">
-                                <!-- logo -->
-                                <div class="logo">
-                                    <a href="#">Subhajit Mitra</a>
-                                </div>
-                            </div>
-                            <div class="col-5">
-                                <a href="./assets/Subhajit CV - 010224.pdf" target="_blank" class="default-btn header-action-btn"><i class="ti-agenda"></i>Download CV</a>
-
-                                <div class="default-btn menu-btn">
-                                    <i class="ti-menu"></i>
-                                    <i class="ti-close"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-                <!-- end of header -->
-
-                <!-- begin of home -->
-                <div class="home-wrapper">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <div class="col-lg-3 col-md-5 col-sm-3">
-                                <div class="hero-img wow fadeIn" data-wow-delay=".2s">
-                                    <div class="shape"></div>
-                                    <!-- image -->
-                                    <img class="img-fluid" src="img/sm12.png" alt="Subhajit Mitra Profile Picture">
-                                </div>
-                            </div>
-
-                            <div class="col-md-7 col-sm-7">
-                                <div class="hero-content">
-                                    <h2 class="intro-name">
-                                        <span class="wow slideInLeft">Hello</span>
-                                        <span class="wow slideInLeft" data-wow-delay=".2s">I'm, Subhajit Mitra</span>
-                                    </h2>
-                                    <p>
-                                        <span class="wow slideInLeft" data-wow-delay=".5s">Software Developer | Senior Package Consultant @IBM</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end of home -->
-
-                <!-- begin of about -->
-                <div id="about" class="wrapper about-wrapper">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- section heading -->
-
-                                <h3 class="wrapper-heading">About Me</h3>
-
-                                <h4 class="about-sub-heading">Here's a little about me - </h4>
-                                <p class="about-text">
-                                    I am a full stack web developer with 5+ years’ experience in developing software solutions for enterprises. I have worked on various technology stacks ranging from .NET full stack to SAP Spartacus with Hybris 2205. Actively working on developing and maintaining Cloud native applications.
-                                </p>
-                                <a href="./assets/Subhajit CV - 010224.pdf" target="_blank"  class="default-btn"><i class="ti-agenda"></i> Download CV</a>
-                                <!-- social profile links -->
-                                <div class="social-links">
-                                    <span>Connect with Me </span>
-                                    <ul>
-                                        <li><a href="mailto:subhajitmitra.1996@gmail.com" data-text="em" target="_blank"><i class="ti-email"></i></a></li>
-                                        <li><a href="https://www.facebook.com/subhajit.mitra.984/" data-text="fb" target="_blank"><i class="ti-facebook"></i></a></li>
-                                        <li><a href="https://linkedin.com/in/subhajit-mitra102/" data-text="in" target="_blank"><i class="ti-linkedin"></i></a></li>
-                                        <li><a href="https://github.com/Subhajit102/" data-text="git" target="_blank"><i class="ti-github"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end of about -->
-                
-
-                <!-- begin of experience -->
-                <div id="experience" class="wrapper experience-wrapper">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- section heading -->
-                                <h3 class="wrapper-heading">Experience</h3>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="experience-single">
-                                    <h4 class="company">IBM</h4>
-                                    <p class="position-name">Senior Package Consultant</p>
-                                    <p class="mute-text">May 2023 to present</p>
-                                    <hr>
-                                    <p class="company-info">
-                                        <section class="mb-2">
-                                            Project Engagement 1 (Spartacus developer – Angular 15):
-                                        </section>
-                                        <section class="experience-desc">
-                                            Working as a senior front-end developer for building store front of an e-commerce application which has millions of products and works in several countries. The front-end uses SAP Spartacus 6+ and the backend is Hybris 2211.
-                                        </section>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="experience-single">
-                                    <h4 class="company">Accenture</h4>
-                                    <p class="position-name">Custom Software Engineering Senior Analyst</p>
-                                    <p class="mute-text">July 2021 to May 2023</p>
-                                    <hr>
-                                    <p class="company-info">
-                                        <section class="mb-2">
-                                            Project Engagement 1 (Full Stack developer – .NET core, Angular 12, MSSQL):
-                                        </section>
-                                        <section class="experience-desc">
-                                            Developed a Cloud Native project for a from scratch using Telerik Kendo UI, AM charts, etc to develop several components, implemented routing, lazy loading of the components for performance improvement, implemented authentication and integrated services with backend APIs.
-                                        </section>
-                                    </p>
-                                    <hr>
-                                    <p class="company-info">
-                                        <section class="mb-2">
-                                            Project Engagement 2 (Angular12 + Spartacus):
-                                        </section>
-                                        <section class="experience-desc">
-                                            Worked as a Front-end developer for store-front development using Angular 12 for the upgrading a legacy application which was made using Angular JS. The Backend was SAP hybris 2105.
-                                        </section>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="experience-single">
-                                    <h4 class="company">Infosys Limited</h4>
-                                    <p class="position-name">Senior Systems Engineer</p>
-                                    <p class="mute-text">November 2018 to July 2021</p>
-                                    <hr>
-                                    <p class="company-info">
-                                        <section class="mb-2">
-                                            Project Engagement 1 (.NET Core, Angular):
-                                        </section>
-                                        <section class="experience-desc">
-                                            Worked on a Cloud based application which uses Microservices architecture. Created APIs using Entity Framework core with the backend using Oracle Database. Involved in the development of UI components, Web APIs, Microservices, Database tables, Stored Procedures, Triggers and Unit testing. 
-                                        </section>
-                                    </p>
-                                    <hr>
-                                    <p class="company-info">
-                                        <section class="mb-2">
-                                            Project Engagement 2 (.NET):
-                                        </section>
-                                        <section class="experience-desc">
-                                            Worked on an ASP.Net MVC Application as a member of the development team, performing enhancements on a regular basis. The project used Asp.NET MVC, HTML, CSS, Bootstrap etc for front-end and MSSQL was used for the database.
-                                        </section>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end of experience -->
-                
-                <!-- begin of education -->
-                <div id="education" class="wrapper education-wrapper">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- section heading -->
-                                <h3 class="wrapper-heading">Education</h3>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="education-single">
-                                    <h4 class="course-name">B.Tech in Civil Engineering</h4>
-                                    <p class="institute">Heritage Institute of Technology, Kolkata</p>
-                                    <p class="institute">CGPA: 9.38 (Gold Medalist) </p>
-                                    <p class="mute-text">2014-2018</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="education-single">
-                                    <h4 class="course-name">I.S.C (Class XII)</h4>
-                                    <p class="institute">Xavier’s English School, Konnagar</p>
-                                    <p class="institute">Percentage: 90.50%</p>
-                                    <p class="mute-text">2014</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="education-single">
-                                    <h4 class="course-name">I.C.S.E (Class X)</h4>
-                                    <p class="institute">Xavier’s English School, Konnagar</p>
-                                    <p class="institute">Percentage: 90.00%</p>
-                                    <p class="mute-text">2012</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end of education -->
-
-                <!-- begin of skills-->
-                <div id="skills" class="wrapper skills-wrapper">
-                    <div class="container-fluid">
-                        <h3 class="wrapper-heading">Skills</h3>
-
-                        <div class="row">
-
-                            <div class="col-md-6">
-                                <div class="skill-item">
-                                    <p>Angular 15</p>
-                                    <div class="skill-wrap">
-                                        <div class="skill-percent wow slideInLeft" style="width:90%"></div>
-                                    </div>
-                                </div>
-                    
-                                <div class="skill-item">
-                                    <p>SAP Spartacus 6</p>
-                                    <div class="skill-wrap">
-                                        <div class="skill-percent wow slideInLeft" data-wow-delay=".1s" style="width:85%"></div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-item">
-                                    <p>React 18</p>
-                                    <div class="skill-wrap">
-                                        <div class="skill-percent wow slideInLeft" data-wow-delay=".2s" style="width:70%"></div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <p>HTML, CSS, JavaScript</p>
-                                    <div class="skill-wrap">
-                                        <div class="skill-percent wow slideInLeft" data-wow-delay=".2s" style="width:80%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 margin-on-md">
-                                <div class="skill-item">
-                                    <p>.NET 5 & 7</p>
-                                    <div class="skill-wrap">
-                                        <div class="skill-percent wow slideInLeft" style="width:75%"></div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-item">
-                                    <p>REST API, Entity Framework</p>
-                                    <div class="skill-wrap">
-                                        <div class="skill-percent wow slideInLeft" data-wow-delay=".1s" style="width:70%"></div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-item">
-                                    <p>Azure PaaS</p>
-                                    <div class="skill-wrap">
-                                        <div class="skill-percent wow slideInLeft" data-wow-delay=".2s" style="width:60%"></div>
-                                    </div>
-                                </div>
- 
-                                <div class="skill-item">
-                                    <p>MS SQL Server</p>
-                                    <div class="skill-wrap">
-                                        <div class="skill-percent wow slideInLeft" data-wow-delay=".3s" style="width:60%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- end of skills -->
-
-                <!-- begin of Projects -->
-                <div id="projects" class="wrapper experience-wrapper">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- section heading -->
-                                <h3 class="wrapper-heading">Personal Projects</h3>
-                            </div>
-                            <div class="col-md-6" >        
-                                <a href="https://github.com/Subhajit102/InsightCmsApp1" target="_blank">
-                                    <div class="experience-single">
-                                        <h4 class="company">Insight Learning App</h4>
-                                        <p class="mute-text">Tags: Full Stack web app</p>
-                                        <hr>
-                                        <p class="position-name">
-                                            <section class="personal-project-desc">A complete learning app that integrates both ability to attend live classes using video-calling feature and watch pre-recorded courses. </section>
-                                            <section class="personal-project-desc">It also has features like that of an e-commerce site that it allows to see the course catalog and add the courses to cart. Upon checkout and payment through payment gateway, the course is added to your learning section.</section>
-                                            <section class="personal-project-desc">The app is also mobile responsive. The live class feature supports upto 10 users.</section>
-                                        </p>
-                                        <p class="position-name">Tech stack: .NET 7, Angular 14, MSSQL, Docker, Azure App service, Blob Storage, Key vault, etc</p>
-
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6" >        
-                                <a href="https://github.com/Subhajit102/DatingApp" target="_blank">
-                                    <div class="experience-single">
-                                        <h4 class="company">Dating App</h4>
-                                        <p class="mute-text">Tags: Full Stack web app</p>
-                                        <hr>
-                                        <p class="position-name">
-                                            <section class="personal-project-desc">A dating app clone that has features of connecting to matched, live chat with them, maintaining profile details like setting profile pictures, description, etc </section>
-                                        </p>
-                                        <p class="position-name">Tech stack: .NET 7, Angular 14, Sql lite, Docker etc</p>
-
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6" >        
-                                <a href="https://github.com/Subhajit102/ReStore" target="_blank">
-                                    <div class="experience-single">
-                                        <h4 class="company">E-commerce App</h4>
-                                        <p class="mute-text">Tags: Full Stack web app</p>
-                                        <hr>
-                                        <p class="position-name">
-                                            <section class="personal-project-desc">An e-commerce store that has a catalog of products which can be added to cart and purchased after payment through a payment gateway.</section>
-                                        </p>
-                                        <p class="position-name">Tech stack: .NET 7, React, Sql lite</p>
-
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6" >        
-                                <a href="https://github.com/Subhajit102/wordle-react" target="_blank">
-                                    <div class="experience-single">
-                                        <h4 class="company">Wordle game</h4>
-                                        <p class="mute-text">Tags: Game</p>
-                                        <hr>
-                                        <p class="position-name">
-                                            <section class="personal-project-desc">A clone of the popular online game Wordle. The game has a collection of 500+ 5 letter words that needs to be guessed in 6 attempts.</section>                                         
-                                        </p>
-                                        <p class="position-name">Tech stack: React 18, Firebase</p>
-
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6" >        
-                                <a href="https://github.com/Subhajit102/LudoGame" target="_blank">
-                                    <div class="experience-single">
-                                        <h4 class="company">Ludo game</h4>
-                                        <p class="mute-text">Tags: Game</p>
-                                        <hr>
-                                        <p class="position-name">
-                                            <section class="personal-project-desc">A clone of the popular Indian board game ludo. 4 players at max can play the game and players have to roll the dice at their turn. The player whose all the peices reach the home at first wins the game.</section>                                         
-                                        </p>
-                                        <p class="position-name">Tech stack: Angular</p>
-
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- end of Projects -->			
-
-                <!-- begin of certification-->
-                <div id="certifications" class="wrapper certification-wrapper">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- section heading -->
-                                <h3 class="wrapper-heading">Certifications</h3>
-                            </div>
-
-                            <div class="col-md-6">
-                                <a href="https://www.credly.com/badges/68743092-ea72-4749-8f51-03aa9e472807/public_url" target="_blank">
-                                    <div class="certification-single">
-                                        <h4 class="certicate-name">Microsoft Certified: Azure Fundamentals</h4>
-                                        <p class="certificate-issuer">Microsoft</p>
-                                        <p class="tags">Skills: Azure, Cloud-data, Cloud Networking, Cloud Security, Cloud Services</p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            
-                        </div>
-                    </div>
-                    <br><br><br><br><br>
-                </div>
-                <!-- end of certs-wrapper -->
-
-                <!-- begin of contact -->
-                <div id="contact" class="wrapper contact-wrapper">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- section heading -->
-                                <h3 class="wrapper-heading">Get in Touch</h3>
-                                <p>Best way to get in touch with me is via email</p>
-                            </div>
-                            <div class="col-lg-12 col-md-12">
-                                <div class="contact-info">
-                                    <p><span class="ti-email"></span><a href="mailto:subhajitmitra.1996@gmail.com">subhajitmitra.1996@gmail.com</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end of contact -->
-
-                <!-- begin of contact-Social -->
-                <footer class="wrapper footer-wrapper footer-xl">
-                    <div class="container-fluid">
-                        <div class="col-md-12 text-center">
-                            <div class="footer-social">
-                                <a href="mailto:subhajitmitra.1996@gmail.com" target="_blank">Email</a>
-                                <a href="https://www.facebook.com/subhajit.mitra.984/" target="_blank">Facebook</a>
-                                <a href="https://linkedin.com/in/subhajit-mitra102/" target="_blank">Linkedin</a>
-                                <a href="https://github.com/Subhajit102/" target="_blank">Github</a>
-                            </div>
-                            <p class="footer-copyright">© Copyright 2024 - Subhajit Mitra</p>
-                        </div>
-                    </div>
-                </footer>
-                <!-- end of contact-Socials -->
-
-                <!-- scroll-to top -->
-                <a class="default-btn scroll-to-top" href="#body"><span class="ti-angle-up "></span></a>
-
-            </div>
-            <!-- end of main-content -->
+                        </a>
+                    </li>
+                </ul>
+                <br><br><br>
+            </nav>
         </div>
-        <!-- end of main -->
+        <!-- end of navbar -->
 
-    </body>
-     <!-- 
+
+        <!-- begin of main-content -->
+        <div class="main-content">
+            <!-- begin of header -->
+            <header>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-7">
+                            <!-- logo -->
+                            <div class="logo">
+                                <a href="#">Subhajit Mitra</a>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <a href="./assets/Subhajit CV - 010224.pdf" target="_blank"
+                                class="default-btn header-action-btn"><i class="ti-agenda"></i>Download CV</a>
+
+                            <div class="default-btn menu-btn">
+                                <i class="ti-menu"></i>
+                                <i class="ti-close"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- end of header -->
+
+            <!-- begin of home -->
+            <div class="home-wrapper">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-5 col-sm-3">
+                            <div class="hero-img wow fadeIn" data-wow-delay=".2s">
+                                <div class="shape"></div>
+                                <!-- image -->
+                                <img class="img-fluid" src="img/sm12.png" alt="Subhajit Mitra Profile Picture">
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-sm-7">
+                            <div class="hero-content">
+                                <h2 class="intro-name">
+                                    <span class="wow slideInLeft">Hello</span>
+                                    <span class="wow slideInLeft" data-wow-delay=".2s">I'm, Subhajit Mitra</span>
+                                </h2>
+                                <p>
+                                    <span class="wow slideInLeft" data-wow-delay=".5s">Software Developer | Senior
+                                        Package Consultant @IBM</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of home -->
+
+            <!-- begin of about -->
+            <div id="about" class="wrapper about-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- section heading -->
+
+                            <h3 class="wrapper-heading">About Me</h3>
+
+                            <h4 class="about-sub-heading">Here's a little about me - </h4>
+                            <p class="about-text">
+                                I am a full stack web developer with 5+ years’ experience in developing software
+                                solutions for enterprises. I have worked on various technology stacks ranging from .NET
+                                full stack to SAP Spartacus with Hybris 2205. Actively working on developing and
+                                maintaining Cloud native applications.
+                            </p>
+                            <a href="./assets/Subhajit CV - 010224.pdf" target="_blank" class="default-btn"><i
+                                    class="ti-agenda"></i> Download CV</a>
+                            <!-- social profile links -->
+                            <div class="social-links">
+                                <span>Connect with Me </span>
+                                <ul>
+                                    <li><a href="mailto:subhajitmitra.1996@gmail.com" data-text="em" target="_blank"><i
+                                                class="ti-email"></i></a></li>
+                                    <li><a href="https://www.facebook.com/subhajit.mitra.984/" data-text="fb"
+                                            target="_blank"><i class="ti-facebook"></i></a></li>
+                                    <li><a href="https://linkedin.com/in/subhajit-mitra102/" data-text="in"
+                                            target="_blank"><i class="ti-linkedin"></i></a></li>
+                                    <li><a href="https://github.com/Subhajit102/" data-text="git" target="_blank"><i
+                                                class="ti-github"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of about -->
+
+
+            <!-- begin of experience -->
+            <div id="experience" class="wrapper experience-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- section heading -->
+                            <h3 class="wrapper-heading">Experience</h3>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="experience-single">
+                                <h4 class="company">IBM</h4>
+                                <p class="position-name">Senior Package Consultant</p>
+                                <p class="mute-text">May 2023 to present</p>
+                                <hr>
+                                <p class="company-info">
+                                <section class="mb-2">
+                                    Project Engagement 1 (Spartacus developer – Angular 15):
+                                </section>
+                                <section class="experience-desc">
+                                    Working as a senior front-end developer for building store front of an e-commerce
+                                    application which has millions of products and works in several countries. The
+                                    front-end uses SAP Spartacus 6+ and the backend is Hybris 2211.
+                                </section>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="experience-single">
+                                <h4 class="company">Accenture</h4>
+                                <p class="position-name">Custom Software Engineering Senior Analyst</p>
+                                <p class="mute-text">July 2021 to May 2023</p>
+                                <hr>
+                                <p class="company-info">
+                                <section class="mb-2">
+                                    Project Engagement 1 (Full Stack developer – .NET core, Angular 12, MSSQL):
+                                </section>
+                                <section class="experience-desc">
+                                    Developed a Cloud Native project for a from scratch using Telerik Kendo UI, AM
+                                    charts, etc to develop several components, implemented routing, lazy loading of the
+                                    components for performance improvement, implemented authentication and integrated
+                                    services with backend APIs.
+                                </section>
+                                </p>
+                                <hr>
+                                <p class="company-info">
+                                <section class="mb-2">
+                                    Project Engagement 2 (Angular12 + Spartacus):
+                                </section>
+                                <section class="experience-desc">
+                                    Worked as a Front-end developer for store-front development using Angular 12 for the
+                                    upgrading a legacy application which was made using Angular JS. The Backend was SAP
+                                    hybris 2105.
+                                </section>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="experience-single">
+                                <h4 class="company">Infosys Limited</h4>
+                                <p class="position-name">Senior Systems Engineer</p>
+                                <p class="mute-text">November 2018 to July 2021</p>
+                                <hr>
+                                <p class="company-info">
+                                <section class="mb-2">
+                                    Project Engagement 1 (.NET Core, Angular):
+                                </section>
+                                <section class="experience-desc">
+                                    Worked on a Cloud based application which uses Microservices architecture. Created
+                                    APIs using Entity Framework core with the backend using Oracle Database. Involved in
+                                    the development of UI components, Web APIs, Microservices, Database tables, Stored
+                                    Procedures, Triggers and Unit testing.
+                                </section>
+                                </p>
+                                <hr>
+                                <p class="company-info">
+                                <section class="mb-2">
+                                    Project Engagement 2 (.NET):
+                                </section>
+                                <section class="experience-desc">
+                                    Worked on an ASP.Net MVC Application as a member of the development team, performing
+                                    enhancements on a regular basis. The project used Asp.NET MVC, HTML, CSS, Bootstrap
+                                    etc for front-end and MSSQL was used for the database.
+                                </section>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of experience -->
+
+            <!-- begin of education -->
+            <div id="education" class="wrapper education-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- section heading -->
+                            <h3 class="wrapper-heading">Education</h3>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="education-single">
+                                <h4 class="course-name">B.Tech in Civil Engineering</h4>
+                                <p class="institute">Heritage Institute of Technology, Kolkata</p>
+                                <p class="institute">CGPA: 9.38 (Gold Medalist) </p>
+                                <p class="mute-text">2014-2018</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="education-single">
+                                <h4 class="course-name">I.S.C (Class XII)</h4>
+                                <p class="institute">Xavier’s English School, Konnagar</p>
+                                <p class="institute">Percentage: 90.50%</p>
+                                <p class="mute-text">2014</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="education-single">
+                                <h4 class="course-name">I.C.S.E (Class X)</h4>
+                                <p class="institute">Xavier’s English School, Konnagar</p>
+                                <p class="institute">Percentage: 90.00%</p>
+                                <p class="mute-text">2012</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of education -->
+
+            <!-- begin of skills-->
+            <div id="skills" class="wrapper skills-wrapper">
+                <div class="container-fluid">
+                    <h3 class="wrapper-heading">Skills</h3>
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="skill-item">
+                                <p>Angular 15</p>
+                                <div class="skill-wrap">
+                                    <div class="skill-percent wow slideInLeft" style="width:90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p>SAP Spartacus 6</p>
+                                <div class="skill-wrap">
+                                    <div class="skill-percent wow slideInLeft" data-wow-delay=".1s" style="width:85%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p>React 18</p>
+                                <div class="skill-wrap">
+                                    <div class="skill-percent wow slideInLeft" data-wow-delay=".2s" style="width:70%">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <p>HTML, CSS, JavaScript</p>
+                                <div class="skill-wrap">
+                                    <div class="skill-percent wow slideInLeft" data-wow-delay=".2s" style="width:80%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 margin-on-md">
+                            <div class="skill-item">
+                                <p>.NET 5 & 7</p>
+                                <div class="skill-wrap">
+                                    <div class="skill-percent wow slideInLeft" style="width:75%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p>REST API, Entity Framework</p>
+                                <div class="skill-wrap">
+                                    <div class="skill-percent wow slideInLeft" data-wow-delay=".1s" style="width:70%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p>Azure PaaS</p>
+                                <div class="skill-wrap">
+                                    <div class="skill-percent wow slideInLeft" data-wow-delay=".2s" style="width:60%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p>MS SQL Server</p>
+                                <div class="skill-wrap">
+                                    <div class="skill-percent wow slideInLeft" data-wow-delay=".3s" style="width:60%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- end of skills -->
+
+            <!-- begin of Projects -->
+            <div id="projects" class="wrapper experience-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- section heading -->
+                            <h3 class="wrapper-heading">Personal Projects</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://github.com/Subhajit102/InsightCmsApp1" target="_blank">
+                                <div class="experience-single">
+                                    <h4 class="company">Insight Learning App</h4>
+                                    <p class="mute-text">Tags: Full Stack web app</p>
+                                    <hr>
+                                    <p class="position-name">
+                                    <section class="personal-project-desc">A complete learning app that integrates both
+                                        ability to attend live classes using video-calling feature and watch
+                                        pre-recorded courses. </section>
+                                    <section class="personal-project-desc">It also has features like that of an
+                                        e-commerce site that it allows to see the course catalog and add the courses to
+                                        cart. Upon checkout and payment through payment gateway, the course is added to
+                                        your learning section.</section>
+                                    <section class="personal-project-desc">The app is also mobile responsive. The live
+                                        class feature supports upto 10 users.</section>
+                                    </p>
+                                    <p class="position-name">Tech stack: .NET 7, Angular 14, MSSQL, Docker, Azure App
+                                        service, Blob Storage, Key vault, etc</p>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://github.com/Subhajit102/DatingApp" target="_blank">
+                                <div class="experience-single">
+                                    <h4 class="company">Dating App</h4>
+                                    <p class="mute-text">Tags: Full Stack web app</p>
+                                    <hr>
+                                    <p class="position-name">
+                                    <section class="personal-project-desc">A dating app clone that has features of
+                                        connecting to matched, live chat with them, maintaining profile details like
+                                        setting profile pictures, description, etc </section>
+                                    </p>
+                                    <p class="position-name">Tech stack: .NET 7, Angular 14, Sql lite, Docker etc</p>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://github.com/Subhajit102/ReStore" target="_blank">
+                                <div class="experience-single">
+                                    <h4 class="company">E-commerce App</h4>
+                                    <p class="mute-text">Tags: Full Stack web app</p>
+                                    <hr>
+                                    <p class="position-name">
+                                    <section class="personal-project-desc">An e-commerce store that has a catalog of
+                                        products which can be added to cart and purchased after payment through a
+                                        payment gateway.</section>
+                                    </p>
+                                    <p class="position-name">Tech stack: .NET 7, React, Sql lite</p>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://github.com/Subhajit102/wordle-react" target="_blank">
+                                <div class="experience-single">
+                                    <h4 class="company">Wordle game</h4>
+                                    <p class="mute-text">Tags: Game</p>
+                                    <hr>
+                                    <p class="position-name">
+                                    <section class="personal-project-desc">A clone of the popular online game Wordle.
+                                        The game has a collection of 500+ 5 letter words that needs to be guessed in 6
+                                        attempts.</section>
+                                    </p>
+                                    <p class="position-name">Tech stack: React 18, Firebase</p>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://github.com/Subhajit102/LudoGame" target="_blank">
+                                <div class="experience-single">
+                                    <h4 class="company">Ludo game</h4>
+                                    <p class="mute-text">Tags: Game</p>
+                                    <hr>
+                                    <p class="position-name">
+                                    <section class="personal-project-desc">A clone of the popular Indian board game
+                                        ludo. 4 players at max can play the game and players have to roll the dice at
+                                        their turn. The player whose all the peices reach the home at first wins the
+                                        game.</section>
+                                    </p>
+                                    <p class="position-name">Tech stack: Angular</p>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end of Projects -->
+
+            <!-- begin of certification-->
+            <div id="certifications" class="wrapper certification-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- section heading -->
+                            <h3 class="wrapper-heading">Certifications</h3>
+                        </div>
+
+                        <div class="col-md-6">
+                            <a href="https://www.credly.com/badges/68743092-ea72-4749-8f51-03aa9e472807/public_url"
+                                target="_blank">
+                                <div class="certification-single">
+                                    <h4 class="certicate-name">Microsoft Certified: Azure Fundamentals</h4>
+                                    <p class="certificate-issuer">Microsoft</p>
+                                    <p class="tags">Skills: Azure, Cloud-data, Cloud Networking, Cloud Security, Cloud
+                                        Services</p>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <br><br><br><br><br>
+            </div>
+            <!-- end of certs-wrapper -->
+
+            <!-- begin of contact -->
+            <div id="contact" class="wrapper contact-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- section heading -->
+                            <h3 class="wrapper-heading">Get in Touch</h3>
+                            <p>Best way to get in touch with me is via email</p>
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <div class="contact-info">
+                                <p><span class="ti-email"></span><a
+                                        href="mailto:subhajitmitra.1996@gmail.com">subhajitmitra.1996@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of contact -->
+
+            <!-- begin of contact-Social -->
+            <footer class="wrapper footer-wrapper footer-xl">
+                <div class="container-fluid">
+                    <div class="col-md-12 text-center">
+                        <div class="footer-social">
+                            <a href="mailto:subhajitmitra.1996@gmail.com" target="_blank">Email</a>
+                            <a href="https://www.facebook.com/subhajit.mitra.984/" target="_blank">Facebook</a>
+                            <a href="https://linkedin.com/in/subhajit-mitra102/" target="_blank">Linkedin</a>
+                            <a href="https://github.com/Subhajit102/" target="_blank">Github</a>
+                        </div>
+                        <p class="footer-copyright">© Copyright 2024 - Subhajit Mitra</p>
+                    </div>
+                </div>
+            </footer>
+            <!-- end of contact-Socials -->
+
+            <!-- scroll-to top -->
+            <a class="default-btn scroll-to-top" href="#body"><span class="ti-angle-up "></span></a>
+
+        </div>
+        <!-- end of main-content -->
+    </div>
+    <!-- end of main -->
+
+</body>
+<!-- 
      * Copyright (C) Subhajit Mitra - All Rights Reserved
      * Unauthorized copying of this file, via any medium is strictly prohibited
      * Site created by-
@@ -578,4 +623,5 @@
                                                |____/
                                                                                                                   
                              in Feb 2024-->
+
 </html>
